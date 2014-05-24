@@ -29,6 +29,7 @@
   let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE"
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
+  let Turqoise = "guifg=#5f8787 guibg=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE"
   let White = "guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
 
@@ -79,7 +80,7 @@
     exe "hi Boolean "         .Red
     exe "hi Constant "        .Purple
     exe "hi Character "       .Green
-    exe "hi Comment "         .Black
+    exe "hi Comment "         .Turqoise
     exe "hi Conditional "     .Peach
     exe "hi Debug "           .Black
     exe "hi Define "          .Purple
