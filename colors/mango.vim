@@ -23,6 +23,12 @@
     let Red = "guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE"
   endif
 
+  if has("gui_running") && bgcolor == "dark"
+    let White = "guifg=#eeeeee guibg=#1c1c1c gui=none ctermfg=255 ctermbg=none cterm=none"
+  else
+    let White = "guifg=#eeeeee guibg=NONE gui=none ctermfg=255 ctermbg=none cterm=none"
+  endif
+
   let Green = "guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE"
   let Gray = "guifg=#bcbcbc guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE"
   let Blue = "guifg=#5fafdf guibg=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE"
@@ -30,7 +36,6 @@
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
   let Turqoise = "guifg=#5faf87 guibg=NONE gui=NONE ctermfg=72 ctermbg=NONE cterm=NONE"
-  let White = "guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
 
 " Light Background: {{{
